@@ -1,0 +1,28 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.container .content {
+  width: 60%;
+  height: 100%;
+  overflow: hidden; /* Prevents any overflow */
+}
+
+.container .content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+.container .router-outlet {
+  width: 40%;
+  /* Additional styling for the router outlet */
+}

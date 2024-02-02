@@ -1,0 +1,32 @@
+.login-form-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.button-flex-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.error {
+  padding: 16px;
+  width: 300px;
+  color: white;
+  background-color: red;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+.mat-mdc-card {
+ 
+  background-color: var(--mdc-outlined-card-outline-color);
+}
+mat-form-field {
+ 
+  background-color: var(--mdc-outlined-card-outline-color);
+}
